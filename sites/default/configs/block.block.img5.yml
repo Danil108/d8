@@ -1,0 +1,25 @@
+uuid: c51f01b8-a5c0-4b42-a771-af4d18597c3e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:img:bc7e159e-a23b-442c-9323-45e5f7cf4165'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: img5
+theme: bartik
+region: footer_first
+weight: 0
+provider: null
+plugin: 'block_content:bc7e159e-a23b-442c-9323-45e5f7cf4165'
+settings:
+  id: 'block_content:bc7e159e-a23b-442c-9323-45e5f7cf4165'
+  label: img5
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

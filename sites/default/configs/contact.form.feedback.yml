@@ -1,0 +1,14 @@
+uuid: ac5e3679-d10a-4ac0-89c1-0a0df808ccea
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - meldanil108@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

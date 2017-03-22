@@ -1,0 +1,42 @@
+uuid: 79c80f15-3fa6-473a-8315-4d46fbd4b053
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b31e283a-167c-4079-984a-9e697c190e4c'
+  module:
+    - block_content
+    - node
+    - user
+  theme:
+    - bartik
+id: whosonline
+theme: bartik
+region: sidebar_second
+weight: -8
+provider: null
+plugin: 'block_content:b31e283a-167c-4079-984a-9e697c190e4c'
+settings:
+  id: 'block_content:b31e283a-167c-4079-984a-9e697c190e4c'
+  label: 'Who’s online'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
